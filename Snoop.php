@@ -1,8 +1,5 @@
 <?php
 
-/**
- * Version 2011-03-15
- */
 
 
 class SnoopBasePathExc extends Exception {}
@@ -107,6 +104,8 @@ class Snoop implements Iterator {
 	protected $iteratorIndex;
 
 	/**
+	 * Konstruktor
+	 *
 	 * @param string $basePath Verzeichnis von dem die Suche ausgeht
 	 */
 	public function  __construct($basePath) {

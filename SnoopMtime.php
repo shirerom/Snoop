@@ -1,13 +1,8 @@
 <?php
 
-/**
- * Version 2011-11-14
- *	Basisklasse per require_once eingebunden
- *
- * Version 2011-01-17
- */
-
 require_once dirname(__FILE__).'/Snoop.php';
+
+
 
 class SnoopMtimeExc extends Exception {}
 class SnoopMtimeCompareExc extends SnoopMtimeExc {}

@@ -1,9 +1,7 @@
 <?php
 
-/**
- * Version 2011-11-14
- */
- 
+
+
 require_once dirname(__FILE__).'/Snoop.php';
 
 
@@ -15,8 +13,8 @@ require_once dirname(__FILE__).'/Snoop.php';
  *
  *	$Snoop = new SnoopFilter("/home/codepfuscher");
  *	$Snoop->addExtension("js");
- *	$Snoop->scanRecursively();
  *	$Snoop->addFilter("UberCoder");
+ *	$Snoop->scanRecursively();
  *	$Snoop->scan();
  *
  *	foreach($Snoop as $file) {
